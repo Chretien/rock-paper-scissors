@@ -1,6 +1,6 @@
 // User Selection
 
-let playerMove = prompt(`rock, paper, or scissors?`);
+let playerMove = prompt(`rock, paper, or scissors?`).toLowerCase();
 
 
 
