@@ -38,14 +38,14 @@ function win(user,computer){
 userScore++;
 userScore_span.innerHTML = userScore;
 computerScore_span.innerHTML = computerScore;
-result_p.innerHTML = convertToWord(user) + ` beats ` + convertToWord(computer) + ". You win!";
+result_p.innerHTML = `You chose ` + convertToWord(user) + `. The computer chose ` + convertToWord(computer) + `. You win!`;
 
 }
 //Lose function
-function lose(computer,user){
+function lose(user,computer){
 computerScore++;
 computerScore_span.innerHTML = computerScore;
-result_p.innerHTML = convertToWord(computer) + ` beats ` + convertToWord(user) + ". You lose!";
+result_p.innerHTML = `You chose ` +  convertToWord(user) + `. The computer chose ` + convertToWord(computer) + `. You lose!`;
 }
 
 function draw(user,computer){
