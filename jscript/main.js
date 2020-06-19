@@ -1,9 +1,9 @@
 // User Selection
 
-let playerMove = prompt(`rock, paper, or scissors?`).toLowerCase();
+//let playerMove = prompt(`rock, paper, or scissors?`).toLowerCase();
 
 
-
+let playerMove = 
 
 // Computer Selection
 let computerMove = Math.random();
@@ -28,7 +28,7 @@ function round(x,y){
    if(x === y){
         console.log(`It's a tie!`);
     }
-    else if(x === 'rock' && y === `paper` || x === `paper` && y === `scissors`){
+    else if(x === 'rock' && y === `paper` || x === `paper` && y === `scissors` || x === 'scissors' && y === 'rock'){
         console.log(`You lose!`)
     }
 
